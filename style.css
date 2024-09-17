@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-style: italic;
 }
-
+body {
+    background-color : #181a1b;
+}
 .header{
     min-height: 100vh;
     width: 100%;
