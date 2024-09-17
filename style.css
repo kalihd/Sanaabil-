@@ -247,7 +247,7 @@ ul {
     
     gap: 15px;
     list-style: none;
-    padding: 5rem;
+    padding: 2rem;
 }
 .join .contact label {
     color: #fff;
@@ -258,7 +258,7 @@ ul {
     outline: none;
     padding: 15px;
     font-style: italic;
-    background-color: #181a1b;
+    background-color:#181a1b;
     color:#fff;
 }
 .join .contact textarea {
