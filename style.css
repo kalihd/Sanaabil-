@@ -5,7 +5,7 @@
     font-style: italic;
 }
 body {
-    background-color : #181a1b;
+    background-color:#181a1b;
     color:#fff;
 }
 .header{
@@ -171,6 +171,8 @@ nav img{
     gap: 10px;
     padding: 20px;
     text-align: center;
+    background-color: #181a1b;
+    color:#fff;
 }
 .aboute .content h2 {
     font-size: 32px;
@@ -256,6 +258,8 @@ ul {
     outline: none;
     padding: 15px;
     font-style: italic;
+    background-color: #181a1b;
+    color:#fff;
 }
 .join .contact textarea {
     height: 8rem;
@@ -263,6 +267,8 @@ ul {
     outline: none;
     padding: 15px;
     font-style: italic;
+    background-color: #181a1b;
+    color:#fff;
 }
 .join button {
     padding: 15px;
@@ -330,7 +336,7 @@ footer a {
 
 @media (max-width: 480px) {
     .box {
-        width: 350px;
+        width: 300px;
         height: 200px; 
     }
     .join .contact {
@@ -338,6 +344,7 @@ footer a {
         flex-direction: column;
         gap: 20px;
         width: 100%;
+        padding:10px;
     }
     .overlay h2 {
         font-size: 28px;
@@ -365,7 +372,7 @@ footer a {
     .join button {
         padding: 15px;
         width: 20%;
-        margin-top: -10px;
+        margin-top: -1px;
         margin-left: 30px;
     }
 }
