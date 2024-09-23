@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-style: italic;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 body {
     background-color:#181a1b;
