@@ -5,31 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Sanaabile</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
- 
-  <section class="header">
-    <nav>
-      <!-- <div> -->
-        <a href="logo"><span>S</span>anaabile</a>
-      <!-- </div> -->
-      <!-- <div class="nav-links">
-        <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">Aboute Us</a></li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
-      Humanitarian 
-      </div> -->
-    </nav>
 
+
+  <header>
+    <a href="logo"><span>S</span>anaabile</a>
+    <ul class="navlist">
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div id="menu-icon"><i id="icon" class='bx bx-menu'></i></div>
+  </header>
+  <section class="header">
     <div class="text-box">
-      <h1>Sudan’s Crisis</h1>
+      <h1>Sudan’s Humanitarian Crisis</h1>
       <p>
         Beginning April 15th, 2023, a war broke out in Sudan between the military and a paramilitary group in Sudan’s capitol khartoum and its next biggest city in the western region of Sudan - Nyala. Clashes between the two groups have since spread to almost every major city in the region causing unimaginable instability to every aspect of the lives of the Sudanese people. From lack of resources (food, water, electricity etc.), to loss of jobs, to closing of schools/universities and hospitals. And for those who did not remain in their homes an added layer of displacement. The crisis is immense, and aid is needed now more than ever. 
       </p>
     </div>
   </section>
+ <!-- <header>
+  <nav>
+    <div>
+      <a href="logo"><span>S</span>anaabile</a>
+    </div> 
+    <div class="nav-links">
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">Aboute Us</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+ </header>
+ -->
 
   <div class="container">
     <div class="boxes">
@@ -59,7 +72,7 @@
       </div>
     </div>
   </div>
-   <main class="aboute">
+   <section id="about" class="aboute">
     <div class="content">
         <h2>About</h2>
         <p>Sanaabil Inc is a nonprofit, 501 C (3) humanitarian organization based in the Mid-Atlantic region of the United States of America. It was established by Sudanese American Muslims to support and sustain ongoing initiatives led by local, regional, national and international organizations across the country of Sudan. Sanaabil aims to collaborate with local and national partners to improve the well-being of people in Sudan and to enable communities to take the lead in initiatives that will bring about a large impact in the short and long-term. Sanaabil also aims to engage all stakeholders to evaluate, implement, and establish humanitarian programs in multiple regions of Sudan. </p>
@@ -67,8 +80,8 @@
     <div class="image">
       <img src="images/Al-Ameen-Sudan.png" alt="">
     </div>
-   </main>
-   <main class="programs">
+   </section>
+   <section id="programs" class="programs">
     <h2>Programs </h2>
     <h3>Due to the instability of the country, we can’t really say there is a “strategic plan”
        that will be put in place. So  I erased the goals that are not possible at this time. 
@@ -103,8 +116,8 @@
         </li>
       </ul>
     </div>
-   </main>
-   <main class="join">
+   </section>
+   <section id="contact" class="join">
     <h2>Join Us</h2>
     <h3>Sanaabil recruits volunteers, staff, and contractors.  If you are interested in working with us, please complete this form
     </h3>
@@ -125,10 +138,12 @@
         </div>
         <button>Send</button>
       </form>
-   </main>
+   </section>
    <footer>
     <span>Sanaabil Email <a href="">Sanaabil@gmail.com</a></span>
     <span> Sanaabil Phone <a href="">+200 100500200</a></span>
    </footer>
+   <script src="mixitup.min.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
