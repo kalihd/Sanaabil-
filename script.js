@@ -7,7 +7,7 @@ function activeMenu(){
     let len = section.length;
     while(--len && window.scrollY + 97 < section[len].offsetTop){}
     menuLi.forEach(sec => sec.classList.remove("active"));
-    menuLi[len].classList.toggle("active");
+    //menuLi[len].classList.toggle("active");
 }
 
 activeMenu();
